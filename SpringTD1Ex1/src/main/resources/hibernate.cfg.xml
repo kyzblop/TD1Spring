@@ -13,7 +13,9 @@
         <property name="show_sql">true</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
         
+        <mapping class="com.inti.model.Professeur"/>
         <mapping class="com.inti.model.Etudiant"/>
+
 
     </session-factory>
 </hibernate-configuration>

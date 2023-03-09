@@ -26,6 +26,11 @@ public class Professeur {
 		this.prenom = prenom;
 		this.salaire = salaire;
 	}
+	
+//	public Professeur(String nom) {
+//		super();
+//		this.nom = nom;
+//	}
 	public int getId() {
 		return id;
 	}

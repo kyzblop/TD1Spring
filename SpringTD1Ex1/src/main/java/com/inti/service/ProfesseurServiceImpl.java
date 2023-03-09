@@ -3,10 +3,12 @@ package com.inti.service;
 import java.util.List;
 
 import org.hibernate.Session;
+import org.springframework.stereotype.Service;
 
 import com.inti.model.Professeur;
 import com.inti.util.HibernateUtil;
 
+@Service
 public class ProfesseurServiceImpl implements IProfesseurService {
 
 	private static Session s = HibernateUtil.getSessionFactory().openSession(); 

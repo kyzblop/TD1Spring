@@ -1,10 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Inscription Prof</title>
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -16,29 +16,23 @@
 	crossorigin="anonymous"></script>
 </head>
 <body>
-	<form method="post" action="saveEtuAvecForm" modelAttribute="etuForm">
+	<form method="post" action="saveProf" modelAttribute="profForm">
 		<div class="mb-3">
-			<label for="exampleInputEmail1" class="form-label">Nom</label> <input
+			<label for="nom" class="form-label">Nom</label> <input
 				type="text" required="required" name="nom" class="form-control"
-				id="exampleInputEmail1" aria-describedby="emailHelp">
+				id="nom" aria-describedby="emailHelp">
 		</div>
 
 		<div class="mb-3">
-			<label for="exampleInputEmail1" class="form-label">Prenom</label> <input
-				type="text" name="prenom" class="form-control" id="exampleInputEmail1"
+			<label for="prenom" class="form-label">Prenom</label> <input
+				type="text" name="prenom" class="form-control" id="prenom"
 				aria-describedby="emailHelp">
 		</div>
 
 		<div class="mb-3">
-			<label for="exampleInputEmail1" class="form-label">Telephone</label>
-			<input type="text" name="tel" class="form-control"
-				id="exampleInputEmail1" aria-describedby="emailHelp">
-		</div>
-
-		<div class="mb-3">
-			<label for="exampleInputEmail1" class="form-label">Mail</label>
-			<input type="email" name="mail" class="form-control"
-				id="exampleInputEmail1" aria-describedby="emailHelp">
+			<label for="salaire" class="form-label">Salaire</label>
+			<input type="text" name="salaire" class="form-control"
+				id="salaire" aria-describedby="emailHelp">
 		</div>
 
 
